@@ -30,6 +30,7 @@ Please, contribute your languages.
 I just wanted to learn about Python and GTK integration, so I decided to update this plugin to newer Gedit using Python3.
 
 *To Do*
-- [ ] Make it work in newer Gedit (tested on v3.34.0) using simple context menus
+- [x] Make it work in newer Gedit (tested on v3.34.0) using simple context menus
 - [ ] Add shortcuts and menu entries to the Tools menu
 - [ ] Add some commits from @bruno-schneider [repo](https://github.com/bruno-schneider/gedit-plugin-indent-converter) for easier install and i18n support
+
