@@ -1,29 +1,28 @@
 # Indent Converter plugin for Gedit
 
-Converts tabs to spaces and spaces to tabs
+Converts tabs to spaces and spaces to tabs in Gedit.
 
-[WIP]
+Adds two items to **Tools** -> **Indent Converter** menu:
 
-~~Adds two items to **Edit** menu:~~
+ - **Spaces to tabs**: replaces all leading spaces with tabs in current document. It uses smart guess algorithm to guess the tab size used in the document. If that fails, uses tab size from gedit preferences.
 
- - ~~**Convert spaces to tabs** - replaces all leading spaces with tabs in current document. It uses smart guess algorithm to guess the tab size used in the document. If that fails - uses tab size from gedit preferences.~~
-
- - ~~**Convert tabs to spaces** - replaces all leading tabs with spaces (size is taken from current gedit preferences) in current document.~~
+ - **Tabs to spaces**: replaces all leading tabs with spaces (size is taken from current gedit preferences) in current document.
 
 
 ## Installation
 
 1. Download latest source package.
-2. Copy `indent-converter.plugin` and `indent-converter.py` files to `~/.local/share/gedit/plugins/` (or `/usr/lib/gedit/plugins/` for system-wide installation).
+2. Copy `indent-converter.plugin` and `indent-converter.py` files to `~/.local/share/gedit/plugins/` (or `/usr/lib/gedit/plugins/` for system-wide installation). Optionally, use `make install` to install files locally.
 3. Open (restart) Gedit.
-4. Go to **Edit** - **Preferences** - **Plugins**.
-5. Enable plugin.
+4. Go to **Edit** -> **Preferences** -> **Plugins**.
+5. Enable **Indent Converter** plugin.
 
 ### Translation
 
 Please, contribute your languages.
 
-### Fork text
+
+#### Fork text
 
 ***forked from [disfated/gedit-plugin-indent-converter](https://github.com/disfated/gedit-plugin-indent-converter)***
 
